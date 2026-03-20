@@ -27,7 +27,7 @@ The easiest way to get the entire application up and running is to use Docker Co
 
 1. Navigate to the project directory:
    ```bash
-   cd medlye
+   cd Medley
    ```
 
 2. Start the services:
@@ -49,7 +49,7 @@ If you prefer to run the services locally without Docker, follow the steps below
 
 1. Navigate to the frontend directory:
    ```bash
-   cd medlye/frontend
+   cd frontend
    ```
 
 2. Install dependencies:
@@ -66,7 +66,7 @@ If you prefer to run the services locally without Docker, follow the steps below
 
 1. Navigate to the backend directory:
    ```bash
-   cd medlye/backend
+   cd backend
    ```
 
 2. Ensure you have a local MySQL instance running and configure the `application.properties` or environment variables accordingly.
@@ -78,9 +78,9 @@ If you prefer to run the services locally without Docker, follow the steps below
 
 ## Project Structure
 
-- `medlye/frontend/`: Contains the React application code.
-- `medlye/backend/`: Contains the Spring Boot backend code.
-- `medlye/ai-service/`: Source code for the AI microservice.
-- `medlye/docker-compose.yml`: Docker configuration file for multi-container orchestration.
-- `medlye/database_schema.sql`: Initial SQL schema for the database.
-- `medlye/er_diagram.md`: ER Diagram for the database structures.
+- `frontend/`: Contains the React application code.
+- `backend/`: Contains the Spring Boot backend code.
+- `ai-service/`: Source code for the AI microservice.
+- `docker-compose.yml`: Docker configuration file for multi-container orchestration.
+- `database_schema.sql`: Initial SQL schema for the database.
+- `er_diagram.md`: ER Diagram for the database structures.
